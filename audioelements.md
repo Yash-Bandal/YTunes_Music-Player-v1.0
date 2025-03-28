@@ -1,7 +1,7 @@
  # HTML Audio Elements Notes
 
 ## 1. Basic `<audio>` Element
-```html 
+```html  
 <audio controls>  
     <source src="song.mp3" type="audio/mpeg"> 
     Your browser does not support the audio element.
