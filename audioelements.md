@@ -1,6 +1,6 @@
  # HTML Audio Elements Notes
 
-## 1. Basic `<audio>` Element
+## 1. Basic `<audio>` Element 
 ```html  
 <audio controls>  
     <source src="song.mp3" type="audio/mpeg">
