@@ -3,7 +3,7 @@
 ## 1. Basic `<audio>` Element
 ```html  
 <audio controls>  
-    <source src="song.mp3" type="audio/mpeg"> 
+    <source src="song.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 ```
