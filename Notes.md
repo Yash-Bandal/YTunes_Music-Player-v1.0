@@ -7,3 +7,7 @@
 ## See sliders
 
 ## See opacity 1 0 css hovers of play buttons
+
+## check table like content appear of not
+1. Firstly before starting to work on file contents check if they are visible on local server
+2. 
