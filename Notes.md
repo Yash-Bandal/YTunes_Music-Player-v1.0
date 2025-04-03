@@ -3,6 +3,10 @@
 2. then we trimmed them and tested if path content were visible by checking the local server
 3. the base path is common first 127. . portNum / "`we pass path`"
 4. use variables to pass paths in functions
+5. ```js
+     console.log(e.href.split("/").slice(-2)[0])
+   ```
+   Gives name of folder...eg link/name
 
 ## See sliders
 
