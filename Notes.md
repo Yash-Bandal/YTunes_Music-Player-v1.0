@@ -25,7 +25,6 @@
 1. Firstly before starting to work on file contents check if they are visible on local server
 2. Error Faced - whilte updating script for dynamic cards..populationg via json...the event listener stopped working and displaying songgs
  this was bcoz..we were using Array.foreach..that was creating problem..as we were using asynchronous style..bbut we dont want asynchronous there..we want to load songs one by one..just immediately after loading folder
-
 so we removed foreach and used normal for loop
 3. If anything not working..check logs..console inspect ..clg errors ..targets..clicks and all
 
