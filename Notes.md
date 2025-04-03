@@ -1,3 +1,8 @@
+## Designing
+1. Easy to visualize is..get all required elements as variables..and operate on that variables
+
+2. eg variables- folders, currentSong, ..and all like this..see its  implementation
+
 ## File paths
 1. first we clg path in logs...
 2. then we trimmed them and tested if path content were visible by checking the local server
