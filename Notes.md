@@ -27,5 +27,7 @@
  this was bcoz..we were using Array.foreach..that was creating problem..as we were using asynchronous style..bbut we dont want asynchronous there..we want to load songs one by one..just immediately after loading folder
 
 so we removed foreach and used normal for loop
+3. If anything not working..check logs..console inspect ..clg errors ..targets..clicks and all
 
 ![img](https://github.com/Yash-Bandal/YTunes_Music-Player-v1.0/blob/844271b9f5fcac9a452ebd53694bb138a50850dd/Process/TableViewOfContents.png)
+
