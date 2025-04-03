@@ -29,5 +29,13 @@ so we removed foreach and used normal for loop
 3. If anything not working..check logs..console inspect ..clg errors ..targets..clicks and all
 4. Click on the line number ..right side script.js or any file..it will give  you where error occured
 
+5.  Note...using string functions ..includes , .replace
+   use =
+```ja
+//eg
+e.target.src.replace("old","new"); //...not work
+e.target.src = e.target.src.replace("old","new"); //...work
+```
+
 ![img](https://github.com/Yash-Bandal/YTunes_Music-Player-v1.0/blob/844271b9f5fcac9a452ebd53694bb138a50850dd/Process/TableViewOfContents.png)
 
