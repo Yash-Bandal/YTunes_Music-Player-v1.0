@@ -7,6 +7,15 @@
      console.log(e.href.split("/").slice(-2)[0])
    ```
    Gives name of folder...eg link/name
+   ```ja
+       let anchors = div.getElementsByTagName("a");
+    Array.from(anchors).forEach(e => {
+
+        if(e.href.includes("/songs")){
+            console.log(e.href.split("/").slice(-2)[0])
+        }
+    });
+   ```
 
 ## See sliders
 
