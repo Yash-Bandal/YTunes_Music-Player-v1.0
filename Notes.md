@@ -9,9 +9,8 @@
    Gives name of folder...eg link/name
    
    ```js
-       let anchors = div.getElementsByTagName("a");
+    let anchors = div.getElementsByTagName("a");
     Array.from(anchors).forEach(e => {
-
         if(e.href.includes("/songs")){
             console.log(e.href.split("/").slice(-2)[0])
         }
