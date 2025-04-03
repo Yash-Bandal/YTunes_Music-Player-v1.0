@@ -7,7 +7,8 @@
      console.log(e.href.split("/").slice(-2)[0])
    ```
    Gives name of folder...eg link/name
-   ```ja
+   
+   ```js
        let anchors = div.getElementsByTagName("a");
     Array.from(anchors).forEach(e => {
 
