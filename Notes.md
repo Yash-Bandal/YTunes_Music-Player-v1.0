@@ -2,6 +2,9 @@
 1. Easy to visualize is..get all required elements as variables..and operate on that variables
 
 2. eg variables- folders, currentSong, ..and all like this..see its  implementation
+3. while using app..create playlist folder and info.json to populate
+
+
 
 ## File paths
 1. first we clg path in logs...
