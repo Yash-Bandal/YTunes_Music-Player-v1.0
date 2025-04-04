@@ -5,7 +5,7 @@
 3. while using app..create playlist folder and info.json to populate
 4. One error i faced was ..container size not growing with device...changed .library (one of inner container) to 80vh from 50vh
 5. Check ch ht and width and position absolute replative and all
-
+6. If function not working..try toggling between return and no return value;
 
 ## File paths
 1. first we clg path in logs...
