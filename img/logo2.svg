@@ -1,0 +1,10 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .y { font: bold 28px sans-serif; fill: #1fdf64; }
+    .tunes { font: bold 28px sans-serif; fill: #ffffff; }
+    .bg { fill: #121212; }
+  </style>
+  <rect width="200" height="60" class="bg"/>
+  <text x="15" y="40" class="y">Y</text>
+  <text x="40" y="40" class="tunes">Tunes</text>
+</svg>

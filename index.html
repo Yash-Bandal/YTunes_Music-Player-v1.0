@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> YTunes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container flex bg-black">
+        <!-- left section  -->
+        <div class="left  ">
+            <div class="close">
+                <img class="invert" src="img/close.svg" alt="">
+            </div>
+            <!-- home  -->
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo">
+
+                    <img width="120px" class="" src="img/logo2.svg" alt="" srcset="">
+                </div>
+
+                <ul>
+                    <li> <img class="invert" src="img/home.svg" alt="home" srcset="">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="search" srcset="">Search </li>
+                </ul>
+            </div>
+
+
+
+            <div class="library bg-gray rounded m-1 p-1">
+
+                <!-- library  -->
+                <div class="heading">
+                    <img class="invert" src="img//playlist.svg" alt="" srcset="">
+                    <h2>Your library</h2>
+                </div>
+
+                <!-- list  -->
+                <div class="songList">
+                    <ul>
+
+                        <li>
+                            <img class="invert musicsvg" src="img/music2.svg">
+                            <div class="info">
+                                <div>A Temple BGM.mp3</div> 
+                                <div>Yash Bandal</div>
+                            </div>
+                            <!-- button  -->
+                             <div class="playNow">
+                                <span>Play Now</span>
+                                 <img class="invert" src="img/play.svg" alt="">
+                             </div>
+                       </li>
+
+                       <li>
+                        <img class="invert musicsvg" src="img/music2.svg">
+                        <div class="info">
+                            <div>Aarambh - Piyush Mishra.mp3</div> 
+                            <div>Yash Bandal</div>
+                        </div>
+                        <!-- button  -->
+                         <div class="playNow">
+                            <span>Play Now</span>
+                             <img class="invert" src="img/play.svg" alt="">
+                         </div>
+                   </li>
+
+                   <li>
+                    <img class="invert musicsvg" src="img/music2.svg">
+                    <div class="info">
+                        <div>Har Har Gange.mp3</div> 
+                        <div>Yash Bandal</div>
+                    </div>
+                    <!-- button  -->
+                     <div class="playNow">
+                        <span>Play Now</span>
+                         <img class="invert" src="img/play.svg" alt="">
+                     </div>
+               </li>
+
+               <li>
+                <img class="invert musicsvg" src="img/music2.svg">
+                <div class="info">
+                    <div>Januman - Shuddha Sarang.mp3</div> 
+                    <div>Yash Bandal</div>
+                </div>
+                <!-- button  -->
+                 <div class="playNow">
+                    <span>Play Now</span>
+                     <img class="invert" src="img/play.svg" alt="">
+                 </div>
+           </li>
+
+                    </ul>
+
+                </div>
+
+                
+
+
+
+
+                <div class="footer" >
+
+                    <div class="f1">
+                        <div><a href=""><span>Legal</span></a></div>
+                        <div><a href=""><span>Safety &amp; Privacy
+                                    Center</span></a></div>
+                        <div><a href=""><span>Privacy
+                                    Policy</span></a></div>
+                        <div><a href=""><span>Cookies</span></a>
+                        </div>
+                        <div><a href=""><span>About Ads</span></a>
+                        </div>
+                        <div><a href=""><span>Accessibility</span></a></div>
+                    </div>
+
+                    <div class="f2">
+                        <div><a href="" target="_blank" rel="noopener"><span>Cookies</span></a></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- left end  -->
+
+        <!-- right section  -->
+        <div class="right bg-gray rounded "> <!--try adding p-1 class-->
+            <div class="header">
+                <!-- nav  -->
+                <div class="nav">
+                    <div class="hamburgerContainer">
+
+                        <!-- hamburget menu icon  -->
+                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+
+                        <!-- left right svg  -->
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                </div>
+                <!-- buttons  -->
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn"> Log in</button>
+                </div>
+
+            </div>
+
+
+            <div class="spotify-playlists">
+                <h1>YB Playlists</h1>
+                <!-- card container  -->
+                <div class="cardContainer">
+                    <!-- cards -->
+                    <!-- trial cards -->
+                    <div data-folder="Bright_(mood)" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Bright_(mood)/cover.jpg" alt="">
+                    
+                        <h2>Feel the Sunshine</h2>
+                        <p>Uplifting tracks to brighten your day</p>
+                    </div>
+
+                    <div data-folder="Chill_(mood)" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Chill_(mood)/cover.jpg" alt="">
+                        <h2>Laid-back Vibes</h2>
+                        <p>Relax and unwind with chill tunes</p>
+                    </div>
+
+   
+
+                    <div data-folder="Dark_(mood)" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Dark_(mood)/cover.jpg" alt="">
+                        <h2>Into the Shadows</h2>
+                        <p>Deep, moody sounds for late nights</p>
+                    </div>
+
+                    <div data-folder="Diljit" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Diljit/cover.jpg" alt="">
+                        <h2>Diljit Dosanjh</h2>
+                        <p>Diljit Dosanjh hits</p>
+                    </div>
+
+                    <div data-folder="Funky_(mood)" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Funky_(mood)/cover.jpg" alt="">
+                        <h2>Go Funky</h2>
+                        <p>Lets go Funky</p>
+                    </div>
+                    <div data-folder="karan%20aujla" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/karan%20aujla/cover.jpg" alt="">
+                        <h2>Karan Aujla</h2>
+                        <p>Karan Aujla for you</p>
+                    </div>
+
+                    <div data-folder="Love_(mood)" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Love_(mood)/cover.jpg" alt="">
+                        <h2>Heartbeats & Harmonies</h2>
+                        <p>Soulful love songs to fall for</p>
+                    </div>
+
+
+                    <div data-folder="ncs" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/ncs/cover.jpg" alt="">
+                        <h2>Sleep Songs</h2>
+                        <p>The Night Playlist</p>
+                    </div>
+
+                    <div data-folder="shivba_raja" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/shivba_raja/cover.jpg" alt="">
+                        <h2>Maratha</h2>
+                        <p>Echoes of the Empire - Swarajya </p>
+                    </div>
+
+                    <div data-folder="Uplifting_(mood)" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64"></circle>
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3"></circle>
+                                <polygon points="9,7 9,17 17,12" fill="black"></polygon>
+                                <!-- <path d="M19 12c0 3-1 5-4 7M21 12c0 4-1 7-5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/> -->
+                            </svg>
+                        </div>
+
+
+                        <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+                        <h2>Rise & Shine</h2>
+                        <p>Motivational songs to lift your spirit</p>
+                    </div>
+
+
+                    <!--                      
+                    <div data-folder="cs" class="card border">
+                        <div class="play">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#1fdf64" />
+                                <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3" />
+                                <polygon points="9,7 9,17 17,12" fill="black" />
+                           
+                            </svg>
+                        </div>
+
+                        <img src="songs/cs/cover.jpg" alt="">
+                        <h2>CS</h2>
+                        <p> copyright</p>
+                    </div>
+
+
+                    <div data-folder="ncs" class="card border">
+                        <svg class="play" width="45" height="45" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" fill="#1fdf64" />
+                            <circle cx="12" cy="12" r="10" stroke="black" stroke-width="1.5" opacity="0.3" />
+                            <polygon points="9,7 9,17 17,12" fill="black" />
+                          
+                        </svg>
+                        <img src="songs/ncs/cover.jpg" alt="">
+                   
+                        <h2>NCS</h2>
+                        <p> default </p>
+                    </div> -->
+
+
+                    <!-- card container ends -->
+                </div>
+
+
+                <div class="playbar">
+
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <!-- above bar  -->
+                    <div class="abovebar">
+
+
+                        <!-- song info  -->
+                        <!-- <div class="songInfo">
+
+                        </div> -->
+                        <div class="songInfo">Hanuman Chalisa - Rasraj Maharaj.mp3</div>
+
+                        <!-- btns  -->
+                        <div class="songButtons">
+                            <img id="previous" src="img/prevsong.svg" alt="">
+                            <img id="play" src="img/play2.svg" alt="">
+                            <img id="next" src="img/nextsong.svg" alt="">
+                        </div>
+                        <!-- time val -->
+                        <div class="timeval ">
+                            <!-- display song time -->
+                            <div class="songtime">00:00 / 00:00</div>
+                            <!-- volume -->
+                            <div class="volume">
+                                <img width="25" src="img/volume.svg" alt="">
+                                <!-- <i class="fa fa-volume-down"></i> -->
+                                <div class="range invert">
+                                    <input type="range" name="volumeRange">
+                                </div>
+                                <!-- <i class="fa fa-volume-up"></i> -->
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
