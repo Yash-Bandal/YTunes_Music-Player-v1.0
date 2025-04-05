@@ -51,3 +51,6 @@ Workspace
    ```
 
 ## UI Preview
+![ui](https://github.com/Yash-Bandal/YTunes_Music-Player-v1.0/blob/f6872301b175c6f14a9ef077ff7ca1967e9b38fa/img/UI.PNG)
+
+## A YB Productions original. 🎧
