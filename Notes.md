@@ -13,7 +13,7 @@
 3. the base path is common first 127. . portNum / "`we pass path`"
 4. use variables to pass paths in functions
 5. ```js
-     console.log(e.href.split("/").slice(-2)[0])
+     console.log(e.href.split("/").slice(-2)[0]) 
    ```
    Gives name of folder...eg link/name
    
