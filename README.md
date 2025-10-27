@@ -1,5 +1,5 @@
 # YTunes - Music Player🎵
-
+ 
 YTunes is a web-based music player inspired by Spotify. It allows users to browse playlists, play songs, and control playback with an intuitive interface.
 
 ## Features 
@@ -10,7 +10,7 @@ YTunes is a web-based music player inspired by Spotify. It allows users to brows
 - **Dynamic Song Loading**: Fetch songs dynamically from the server.
 - **Seekbar**: Navigate through the song timeline.
 - **Volume Control**: Adjust volume or mute/unmute audio.
-- **Keyboard Shortcuts**: Use the spacebar to toggle play/pause.
+- **Keyboard Shortcuts**: Use the space-bar to toggle play/pause.
 
 ## Project Structure
 Workspace
