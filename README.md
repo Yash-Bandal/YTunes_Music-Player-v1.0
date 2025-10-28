@@ -1,5 +1,5 @@
 # YTunes - Music Player🎵
- 
+  
 YTunes is a web-based music player inspired by Spotify. It allows users to browse playlists, play songs, and control playback with an intuitive interface.
 
 ## Features 
