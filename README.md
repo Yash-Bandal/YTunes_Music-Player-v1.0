@@ -16,7 +16,7 @@ YTunes is a web-based music player inspired by Spotifyy. It allows users to brow
 Workspace
 ```
 .
-├── index.html              # Main HTML file
+├── index.html              # The Main HTML file 
 ├── css/
 │   ├── style.css           # Main styles
 │   ├── utility.css         # Utility classes
